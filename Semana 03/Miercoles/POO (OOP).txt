@@ -1,0 +1,70 @@
+POO (OOP)
+
+Clases: molde donde se definen las propiedades y el comportamiento de los objetos de esa clase.
+Objeto: es una variable (instancia) de una clase.
+Encapsulamiento: los datos de un objeto están encapsulados->solo son accesibles mediante métodos definidos en la clase
+
+Diseño de clases:
+Las propiedades (variables) y el comportamiento (métodos: funciones de la clase) son específicas de cada tipo de objeto y están definidas dentro de la clase.
+
+class Nombre{
+	private: lo que se pone acá solo es accesible dentro de la clase
+		propiedades o variables de la clase (encapsulamiento)
+	public: lo que se pone acá es accesible tanto dentro como fuera de la clase
+		métodos o funciones de la clase
+
+
+}; 
+
+
+Sobrecarga de funciones: es posible tener funciones distintas con el mismo nombre, se tienen que diferenciar en los parámetros que reciben
+
+
+
+En un curso se identifica a los alumnos de la siguiente manera:
+
+Nombre
+Apellido
+Legajo (valor entero)
+Fecha de nacimiento ->Fecha
+Fecha de inscripción ->Fecha
+
+Hacer una clase para representar los alumnos de ese curso
+
+Clase hay que definir las propiedades (variables) y el comportamiento (métodos)
+
+COMPOSICION: es un mecanismo mediante el cual usamos como propiedad de una clase un OBJETO de otra clase
+Un objeto puede ser parte de otra clase, pero esa clase no va a poder acceder de manera directa sus propiedades.
+Necesita usar los métodos de la clase a la que pertenece
+
+Se usa cuando una clase TIENE como propiedad un OBJETO de otra
+
+Repasamos hoy todos las definiciones de la POO
+
+- Clase, objeto, encapsulamiento
+- Diseño de clases: parte privada (prop), parte pública (métodos)
+- Métodos: sets(), gets(), constructores, destructor
+- Composición
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
