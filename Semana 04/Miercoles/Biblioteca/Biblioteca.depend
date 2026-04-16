@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1775657920 source:c:\users\vero\onedrive\utn\jtp\2026-1c\pr 2\programacion2-20261c-m\semana 04\martes\biblioteca\main.cpp
+	<iostream>
+	<cstring>
+	"Socio.h"
+
+1775652791 c:\users\vero\onedrive\utn\jtp\2026-1c\pr 2\programacion2-20261c-m\semana 04\martes\biblioteca\socio.h
+	"Fecha.h"
+
+1775743478 c:\users\vero\onedrive\utn\jtp\2026-1c\pr 2\programacion2-20261c-m\semana 04\martes\biblioteca\fecha.h
+
+1775743657 source:c:\users\vero\onedrive\utn\jtp\2026-1c\pr 2\programacion2-20261c-m\semana 04\martes\biblioteca\fecha.cpp
+	<iostream>
+	<cstring>
+	"Fecha.h"
+
+1775743527 source:c:\users\vero\onedrive\utn\jtp\2026-1c\pr 2\programacion2-20261c-m\semana 04\martes\biblioteca\socio.cpp
+	<iostream>
+	<cstring>
+	"Socio.h"
+
+1775657831 source:c:\users\vero\onedrive\utn\jtp\2026-1c\pr 2\programacion2-20261c-m\semana 04\martes\biblioteca\libro.cpp
+	<iostream>
+	<cstring>
+	"Libro.h"
+
+1775657664 c:\users\vero\onedrive\utn\jtp\2026-1c\pr 2\programacion2-20261c-m\semana 04\martes\biblioteca\libro.h
+	"Fecha.h"
+
