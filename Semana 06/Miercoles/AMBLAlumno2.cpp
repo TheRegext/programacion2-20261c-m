@@ -58,7 +58,7 @@ public:
     int getLegajo();
     void setEstado(bool estado);
     bool getEstado();
-    void Cargar();
+    void Cargar(int leg=0);
     void Mostrar();
 };
 
@@ -81,15 +81,22 @@ bool Alumno::getEstado(){
     return _estado;
 }
 
-void Alumno::Cargar(){
+void Alumno::Cargar(int leg){
     int auxLegajo;
+
+    if(leg==0){
+        cout<<"LEGAJO: ";
+        cin>>auxLegajo;
+    }
+    else{
+        auxLegajo=leg;
+    }
+    setLegajo(auxLegajo);
+
     cout<<"NOMBRE: ";
     cin>>_nombre;
     cout<<"APELLIDO: ";
     cin>>_apellido;
-    cout<<"LEGAJO: ";
-    cin>>auxLegajo;
-    setLegajo(auxLegajo);
     cout<<"FECHA DE NACIMIENTO: ";
     _fechaNacimiento.Cargar();
     cout<<"FECHA DE INSCRIPCION: ";
@@ -288,6 +295,7 @@ int main(){
     archivoAlumno reg;
     int pos2;
 
+    int auxLeg;
 //    for(int i=0; i<3; i++){
 //        obj.Cargar();
 //        reg.grabarRegistro(obj);
@@ -302,6 +310,31 @@ int main(){
 //    else{
 //        cout<<"No se pudo grabar"<<endl;
 //    }
+
+    //CARGAR NUEVO ALUMNO PARA GUARDARLO EN EL ARCHIVO
+    cout<<"Ingrese el legajo del alumno: "<<endl;
+    cin>>auxLeg;
+
+    pos2=reg.buscarLegajo(auxLeg);
+
+    if(pos2>=0){
+        obj=reg.leerRegistro(pos2);
+        if(obj.getEstado()){
+            cout<<"El alumno ya existe, saliendo del proceso"<<endl;
+        }
+        else{
+            cout<<"El alumno está dado de baja, desea reactivarlo?"<<endl;
+            //llamo al método altaLogica();
+        }
+    }
+    else{
+        obj.Cargar(auxLeg);
+    }
+
+
+
+
+    return 0;
 
     cout<<endl<<"Listado completo: "<<endl;
     reg.listar();
