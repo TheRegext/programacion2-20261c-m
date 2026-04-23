@@ -9,7 +9,6 @@ App::App()
 	setCantidadItems(1);
 }
 
-
 void App::mostrarOpciones(){ /// <--- polimorfico (virtual)
    cout << "----- MENU PRINCIPAL -------" << endl;
    cout << "1- TREAS"<<endl;
