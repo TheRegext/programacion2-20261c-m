@@ -17,6 +17,16 @@ Tarea::Tarea(int id, std::string titulo, int estado, Fecha creacion,
    setFechaInicio(inicio);
 }
 
+Tarea::Tarea(int id, std::string titulo, int estado, Fecha creacion)
+:Tarea(){
+   
+   setId(id);
+   setTitulo(titulo);
+   setEstado(estado);
+   setFechaCreacion(creacion);
+}
+
+
 int Tarea::getId() const{
    return _id;
 }

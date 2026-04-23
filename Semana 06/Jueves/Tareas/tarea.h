@@ -7,6 +7,7 @@ public:
 	Tarea();
    Tarea(int id, std::string titulo, int estado, Fecha creacion, 
          Fecha inicio, Fecha completado);
+   Tarea(int id, std::string titulo, int estado, Fecha creacion);
    
    int getId() const;
    void setId(int id);
