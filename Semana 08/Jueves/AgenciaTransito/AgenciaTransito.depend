@@ -1,0 +1,80 @@
+# depslib dependency file v1.0
+1779372901 source:e:\code\utn\programacion2-20261c-m\semana 08\jueves\agenciatransito\agente.cpp
+	"Agente.h"
+	<cstring>
+
+1779372875 e:\code\utn\programacion2-20261c-m\semana 08\jueves\agenciatransito\agente.h
+	<string>
+	"Registro.h"
+
+1779372931 source:e:\code\utn\programacion2-20261c-m\semana 08\jueves\agenciatransito\agentearchivo.cpp
+	"AgenteArchivo.h"
+	<cstdio>
+
+1779372964 e:\code\utn\programacion2-20261c-m\semana 08\jueves\agenciatransito\agentearchivo.h
+	"Agente.h"
+	"Archivo.h"
+	<string>
+
+1683846750 source:e:\code\utn\programacion2-20261c-m\semana 08\jueves\agenciatransito\fecha.cpp
+	<string>
+	"Fecha.h"
+
+1684279156 e:\code\utn\programacion2-20261c-m\semana 08\jueves\agenciatransito\fecha.h
+	<string>
+
+1779368609 source:e:\code\utn\programacion2-20261c-m\semana 08\jueves\agenciatransito\main.cpp
+	<iostream>
+	<limits>
+	"AgenteManager.h"
+	"MultaManager.h"
+
+1779368275 e:\code\utn\programacion2-20261c-m\semana 08\jueves\agenciatransito\agentemanager.h
+	"Agente.h"
+	"AgenteArchivo.h"
+
+1779373655 source:e:\code\utn\programacion2-20261c-m\semana 08\jueves\agenciatransito\multa.cpp
+	"Multa.h"
+	<string>
+	<cstring>
+
+1779373624 e:\code\utn\programacion2-20261c-m\semana 08\jueves\agenciatransito\multa.h
+	<string>
+	"Fecha.h"
+	"Registro.h"
+
+1779374287 source:e:\code\utn\programacion2-20261c-m\semana 08\jueves\agenciatransito\multaarchivo.cpp
+	"MultaArchivo.h"
+	<cstdio>
+
+1779374255 e:\code\utn\programacion2-20261c-m\semana 08\jueves\agenciatransito\multaarchivo.h
+	"Archivo.h"
+	"Multa.h"
+	<string>
+
+1684279772 source:e:\code\utn\programacion2-20261c-m\semana 08\jueves\agenciatransito\multamanager.cpp
+	<iostream>
+	"MultaManager.h"
+
+1684278992 e:\code\utn\programacion2-20261c-m\semana 08\jueves\agenciatransito\multamanager.h
+	"Multa.h"
+	"MultaArchivo.h"
+
+1779368454 source:e:\code\utn\programacion2-20261c-m\semana 08\jueves\agenciatransito\agentemanager.cpp
+	<iostream>
+	<limits>
+	<string>
+	"AgenteManager.h"
+
+1779372851 e:\code\utn\programacion2-20261c-m\semana 08\jueves\agenciatransito\registro.h
+
+1779374698 e:\code\utn\programacion2-20261c-m\semana 08\jueves\agenciatransito\archivo.h
+	<string>
+	"Registro.h"
+
+1779370134 source:e:\code\utn\programacion2-20261c-m\semana 08\jueves\agenciatransito\registro.cpp
+	"Registro.h"
+
+1779374206 source:e:\code\utn\programacion2-20261c-m\semana 08\jueves\agenciatransito\archivo.cpp
+	"Archivo.h"
+
